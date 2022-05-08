@@ -1,0 +1,22 @@
+.text{
+  margin: 40px 0;
+}
+
+.text, .text__2{
+  font-size: 2.5rem;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-image: url("../../img/fundoo.jpg");
+  color: transparent;
+}
+
+@media screen and (min-width: 648px) {
+  .text{
+    margin: 80px 0;
+  }
+  
+  .text, .text__2{
+    background-image: url("../../img/fundo.jpg");
+    font-size: 5rem;
+  }
+}
